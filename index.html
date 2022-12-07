@@ -4,105 +4,111 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <title>Под парусом</title>
 </head>
 <body>
 
-    <header>
-        <img src="img/placeholder.svg" alt="Логотип яхт-клуба Yacht Club">
-        <nav>
-            <ul>
-                <li><a href="#">Наш клуб</a></li>
-                <li><a href="#">Регаты</a></li>
-                <li><a href="#">Команда</a></li>
-                <li><a href="#">Обучение</a></li>
-                <li><a href="#">Новости</a></li>
-                <li><a href="#">Контакты</a></li>
+    <header class="main-header">
+        <img src="img/logotype.svg" alt="Логотип яхт-клуба Yacht Club" width="64px" height="68px">
+        <nav class="header-nav">
+            <ul class="header-nav-list">
+                <li class="header-nav-item"><a href="#" class="header-ref">Наш клуб</a></li>
+                <li class="header-nav-item"><a href="#" class="header-ref">Регаты</a></li>
+                <li class="header-nav-item"><a href="#" class="header-ref">Команда</a></li>
+                <li class="header-nav-item"><a href="#" class="header-ref">Обучение</a></li>
+                <li class="header-nav-item"><a href="#" class="header-ref">Новости</a></li>
+                <li class="header-nav-item"><a href="#" class="header-ref">Контакты</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section>
-            <h1>Вместе под парусом</h1>
-            <img src="img/placeholder.svg" alt="Главное изображение">
+        <section class="main">
+            <h1 class="main-title">Вместе под парусом</h1>
+            <img src="img/main photo 1.jpg" alt="Главное изображение" width="1170px" height="466px" class="main-img">
         </section>
 
-        <section>
-            <p>20 октября - 19 апреля</p>
-            <h2>Стань частью команды</h2>
-            <p>Если вы давно хотели попробовать себя в яхтинге – сейчас самое лучшее время! Мы набираем команду будущих шкиперов. За 6 вы станете настоящим капитаном и уже в следующем сезоне сможете самостоятельно выйти в море!</p>
-            <img src="img/placeholder.svg" alt="мужик с биноклем">
+        <section class="first-event">
+            <p class="event-date">20 октября - 19 апреля</p>
+            <h2 class="event-title">Стань частью команды</h2>
+            <p class="event-content">Если вы давно хотели попробовать себя в яхтинге – сейчас самое лучшее время! Мы набираем команду будущих шкиперов. За 6 вы станете настоящим капитаном и уже в следующем сезоне сможете самостоятельно выйти в море!</p>
+            <img src="img/photo 2.jpg" alt="мужик с биноклем" width="600px" height="262px">
         </section>
 
-        <section>
-            <p>16 июля - 23 июля</p>
-            <h2>Рожденные в воде</h2>
-            <p>Подарите детям настоящее приключение! День с морскими пиратами на корабле – это лучшая команда, веселые аниматоры, игры, соревнования, работа в команде и, конечно, море!</p>
-            <img src="img/placeholder.svg" alt="дети">
+        <section class="second-event">
+            <p class="event-date">16 июля - 23 июля</p>
+            <h2 class="event-title">Рожденные в воде</h2>
+            <p class="event-content">Подарите детям настоящее приключение! День с морскими пиратами на корабле – это лучшая команда, веселые аниматоры, игры, соревнования, работа в команде и, конечно, море!</p>
+            <img src="img/photo 3.jpg" alt="дети" width="600px" height="252px">
         </section>
         
         <section>
-            <h2>Контакты</h2>
-            <p>Адрес: г. Сочи, ул. Бзугу, 9</p>
-            <p>Телефон: 8 (622) 62-05-63</p>
-            <p>E-mail: yachtclub-sochi@mail.ru</p>
-            <p>Мы в социальных сетях:</p>
-            <nav>
-                <ul>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">Instagram</a></li>
+            <h2 class="contacts-title">Контакты</h2>
+            <p class="contact"><span class="contact-key">Адрес:</span> г. Сочи, ул. Бзугу, 9</p>
+            <p class="contact"><span class="contact-key">Телефон:</span> 8 (622) 62-05-63</p>
+            <p class="contact"><span class="contact-key">E-mail:</span> yachtclub-sochi@mail.ru</p>
+            <p class="contact-key">Мы в социальных сетях:</p>
+            <nav class="contact-nav">
+                <ul class="contacts-nav-list">
+                    <li class="contact-list-item"><a class="contact-ref" href="#"><img src="img/facebook.svg" width="9px" height="16px"></a></li>
+                    <li class="contact-list-item"><a class="contact-ref" href="#"><img src="img/twitter.svg" width="18px" height="16px"></a></li>
+                    <li class="contact-list-item"><a class="contact-ref" href="#"><img src="img/instagram.svg" width="18px" height="18px"></a></li>
                 </ul>
             </nav>
         </section>
     </main>
+
     <footer>
-        <img src="img/placeholder.svg" alt="Логотип яхт-клуба Yacht Club">
-        <p><a href="#">Политика конфиденциальности</a></p>
-        <p>Яхтклуб ©2020 Все права защищены</p>
-        <nav>
+        <img src="img/logotype.svg" alt="Логотип яхт-клуба Yacht Club" width="100px" height="106px">
+        <p><a class="conf" href="#">Политика конфиденциальности</a></p>
+        <p class="conf">Яхтклуб ©2020 Все права защищены</p>
+        <nav class="footer-nav">
             
-            <ul>
-                <li><h3>Компания</h3></li>
-                <ul>
-                    <li><a href="#">О нас</a></li>
-                    <li><a href="#">Команда</a></li>
-                    <li><a href="#">Новости</a></li>
-                    <li><a href="#">Блог</a></li>
-                    <li><a href="#">Галерея</a></li>
+            <ul class="footer-company-list">
+                <li class="footer-company-list-title"><h3>Компания</h3></li>
+                <ul class="helpful-info">
+                    <li><a class="helpful-info-item" href="#">О нас</a></li>
+                    <li><a class="helpful-info-item" href="#">Команда</a></li>
+                    <li><a class="helpful-info-item" href="#">Новости</a></li>
+                    <li><a class="helpful-info-item" href="#">Блог</a></li>
+                    <li><a class="helpful-info-item" href="#">Галерея</a></li>
                 </ul>
             </ul>
             
-            <ul>
-                <li><h3>Яхт-клуб</h3></li>
-                <ul>
-                    <li><a href="#">Правила</a></li>
-                    <li><a href="#">Стоимость</a></li>
-                    <li><a href="#">Анкета</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Партнеры</a></li>
+            <ul class="footer-company-list">
+                <li class="footer-company-list-title"><h3>Яхт-клуб</h3></li>
+                <ul class="helpful-info">
+                    <li><a class="helpful-info-item" href="#">Правила</a></li>
+                    <li><a class="helpful-info-item" href="#">Стоимость</a></li>
+                    <li><a class="helpful-info-item" href="#">Анкета</a></li>
+                    <li><a class="helpful-info-item" href="#">FAQ</a></li>
+                    <li><a class="helpful-info-item" href="#">Партнеры</a></li>
                 </ul>
             </ul>
-            <ul>
-                <li><h3>Услуги</h3></li>
-                <ul>
-                    <li><a href="#">Аренда яхты</a></li>
-                    <li><a href="#">Свадьба на яхте</a></li>
-                    <li><a href="#">День рождения</a></li>
-                    <li><a href="#">Бизнес-встречи</a></li>
-                    <li><a href="#">Прогулки</a></li>
+
+            <ul class="footer-company-list">
+                <li class="footer-company-list-title"><h3>Услуги</h3></li>
+                <ul class="helpful-info">
+                    <li><a class="helpful-info-item" href="#">Аренда яхты</a></li>
+                    <li><a class="helpful-info-item" href="#">Свадьба на яхте</a></li>
+                    <li><a class="helpful-info-item" href="#">День рождения</a></li>
+                    <li><a class="helpful-info-item" href="#">Бизнес-встречи</a></li>
+                    <li><a class="helpful-info-item" href="#">Прогулки</a></li>
                 </ul>
             </ul>
             
-            <ul>
-                <li><h3>Регаты</h3></li>
-                <ul>
-                    <li><a href="#">Корпоративные регаты</a></li>
-                    <li><a href="#">Календарь мероприятий</a></li>
-                    <li><a href="#">Стать участником</a></li>
-                    <li><a href="#">Результаты регат</a></li>
-                    <li><a href="#">Обучение</a></li>
+            <ul class="footer-company-list">
+                <li class="footer-company-list-title"><h3>Регаты</h3></li>
+                <ul class="helpful-info">
+                    <li><a class="helpful-info-item" href="#">Корпоративные регаты</a></li>
+                    <li><a class="helpful-info-item" href="#">Календарь мероприятий</a></li>
+                    <li><a class="helpful-info-item" href="#">Стать участником</a></li>
+                    <li><a class="helpful-info-item" href="#">Результаты регат</a></li>
+                    <li><a class="helpful-info-item" href="#">Обучение</a></li>
                 </ul>
             </ul>
             

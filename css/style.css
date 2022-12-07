@@ -1,0 +1,97 @@
+body {
+    color: #163152;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.header-nav {
+    text-transform: uppercase;
+}
+
+.header-nav-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.header-nav-item {
+    margin-right: 30px;
+}
+
+.header-ref {
+    color: #163152;
+    text-decoration: none;
+}
+
+.main-title {
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 44px;
+}
+
+.main-img {
+    display:block;
+    margin: auto;
+}
+
+.event-title {
+    display: inline-block;
+    padding-bottom: 15px;
+    font-weight: 700;
+    font-size: 24px;
+    border-bottom: 2px solid #00C6BD;
+}
+
+.event-content {
+    font-size: 16px;
+}
+
+.contacts-title {
+    display: inline-block;
+    padding-bottom: 15px;
+    font-weight: 700;
+    font-size: 24px;
+    border-bottom: 2px solid #00C6BD;
+}
+
+.contact-key {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.contacts-nav-list {
+    list-style: none;
+}
+
+.conf {
+    font-size: 12px;
+    text-decoration: none;
+    color: #163152;
+}
+
+.footer-company-list {
+    list-style: none;
+}
+
+.footer-company-list-title {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.helpful-info {
+    list-style: none;
+}
+
+.helpful-info-item {
+    color: #163152;
+    text-decoration: none;
+}
